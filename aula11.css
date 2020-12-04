@@ -1,0 +1,28 @@
+body{
+    background-color: #f9eac3;
+    
+
+}
+h1{
+    text-align: center;
+    font-family: Industry, monospace;
+    color: #8844ee;
+    transition: transform 3s;
+    transform: translateX(0) scale(0.8);
+}
+h1::before{
+    content: '';
+    width: 200px;
+    height: 10px;
+    background-color: #8844ee;
+    display: block;
+    margin: 0 auto;
+}
+h1::after {
+    content: '';
+    width: 200px;
+    height: 10px;
+    background-color: #8844ee;
+    display: block;
+    margin: 0 auto;
+}
